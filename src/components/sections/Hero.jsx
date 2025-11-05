@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 import { Bio } from '../../data/constants';
 import Typewriter from "typewriter-effect";
-import images from "../../images/images.jpeg"
+import images from "../../images/profile.jpg"
 import HeroBgAnimation from '../../HeroBgAnimation';
 import {Tilt} from"react-tilt";
 import { motion} from "framer-motion";
@@ -241,14 +241,14 @@ const Hero = () => {
                             </motion.div>
                             
                             <SubTitle>{Bio.description}</SubTitle>
-                            <ResumeButton href="your-resume-link.pdf" target="_blank" rel="noopener noreferrer">
+                            <ResumeButton href="https://drive.google.com/file/d/1QRlIgCtHNS1MJBkDMa_3i5kwQfNZ3J-7/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 Check Resume
                             </ResumeButton>
                         </HeroLeftContainer>
                         
                         <HeroRightContainer>
                             <Tilt>
-                                <Img src={images} alt="images" />
+                                <Img src={images} alt="profile" />
                             </Tilt>
                         </HeroRightContainer>
                     </HeroInnerContainer>

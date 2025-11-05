@@ -6,7 +6,6 @@ import Hero from "../src/components/sections/Hero.jsx";
 import Skills from "../src/components/sections/Skills.jsx";
 import Experience from './components/sections/Experience.jsx';
 import Education from './components/sections/Education.jsx';
-import StarsCanvas from "./components/canvas/Stars.jsx"
 import Projects from './components/sections/Projects.jsx';
 import Contact from './components/sections/Contact.jsx';
 const Body = styled.div`
@@ -40,7 +39,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
-          <StarsCanvas /> 
+          
           <div>
             <Hero />
             <Wrapper>

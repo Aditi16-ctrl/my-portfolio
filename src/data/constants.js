@@ -2,15 +2,14 @@ export const Bio = {
     name: "Aditi Babar",
     roles: [
       "Front-End Developer",
-      "Machine Learning Enthusiast",
-      "Android Developer",
+      "ML Enthusiast",
       "Programmer",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "Passionate about building intelligent, data-driven systems that blend AI, software engineering, and real-world impact. I enjoy learning across domains and collaborating on innovative, user-focused projects.",
     github: "https://github.com/Aditi16-ctrl",
     resume:
-      "https://docs.google.com/document/d/109siumLLKjYB_MwoD4rSTlVQxJr_aNo-/edit?usp=sharing&ouid=110775273783933439019&rtpof=true&sd=true",
+      "https://drive.google.com/file/d/1QRlIgCtHNS1MJBkDMa_3i5kwQfNZ3J-7/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/aditi-babar-8a762a251/",
   };
   
@@ -180,6 +179,15 @@ export const Bio = {
       date: "May 2023 - Present",
       desc: "Contributed to different open-source projects and learn from industry experts",
     },
+    
+    {
+      id: 2,
+      img: "/images/download.png",
+      role: "Machine Learning Intern",
+      company: "FurnoExpress",
+      date: "Dec 2024 - Feb 2025",
+      desc: "Designed automated workflows for data preprocessing and feature engineering, boosting ML performance and reducing manual effort. Integrated pretrained models (Hugging Face Transformers, Stable Diffusion, Instant Mesh) for production use cases.",
+  },
   ];
   
   export const education = [
@@ -214,7 +222,7 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 11,
+      id: 0,
       title: "Breast-Cancer-Orediction-using-MATLAB",
       date: "Aug 2023 - Oct 2024",
       description:
@@ -233,7 +241,7 @@ export const Bio = {
       
     },
     {
-      id: 9,
+      id: 1,
       title: "Phishing detection of urls",
       date: "Feb 2024 - May 2024",
       description:
@@ -256,7 +264,7 @@ export const Bio = {
       
     },
     {
-      id: 0,
+      id: 2,
       title: "PCOS-fertility-prediction ",
       date: "Nov 2023 - Nov 2023",
       description:
@@ -266,6 +274,26 @@ export const Bio = {
       tags: ["Python", "SVM"],
       category: "Machine Learning",
       github: "https://github.com/Aditi16-ctrl/PCOS-fertility-prediction.git",
+    },{
+      id: 13,
+      title: "Stock Market Website",
+      date: "Jan 2025 - March 2025",  
+      description:
+        "Developed a responsive stck market website using React.js to showcase charts. Implemented modern design principles and ensured cross-browser compatibility. Integrated Flask backend with React frontend for real-time visualization.",
+      Objective:"Created a stock market website to display real-time stock data and visualizations using React.js and Flask.",
+      tags: ["React.js", "Flask", "JavaScript", "HTML", "CSS"],
+      category: "Web Development",
+      github: "https://github.com/Aditi16-ctrl/Stocks-Trading-MERN.git",  
     },
+    {
+      id: 14,
+      title: "User-Insight Portal",
+      date: "April 2025 - May 2025",
+      description:"Designed and optimized MySQL schema & queries for efficient review retrieval.             Implemented MVC architecture for scalability, while solving challenges in database design, backend APIs, and frontend integration.",
+      Objective:"Developed a user-insight portal for product reviews and ratings using React.js, Flask, and MySQL.",
+      tags: ["React.js", "Flask", "MySQL", "JavaScript", "HTML", "CSS"],
+      category: "Web Development",
+      github: "https://github.com/Aditi16-ctrl/UserInsight-Portal.git",
+    }
   ];
   
