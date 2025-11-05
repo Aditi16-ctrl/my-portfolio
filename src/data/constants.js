@@ -1,3 +1,5 @@
+import downloadImg from "../images/download.png";
+
 export const Bio = {
     name: "Aditi Babar",
     roles: [
@@ -182,7 +184,7 @@ export const Bio = {
     
     {
       id: 2,
-      img: "/images/download.png",
+      img: downloadImg,
       role: "Machine Learning Intern",
       company: "FurnoExpress",
       date: "Dec 2024 - Feb 2025",
